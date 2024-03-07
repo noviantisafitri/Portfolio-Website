@@ -436,6 +436,7 @@ main.row {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 75px;
 }
 
 .section__about__skill {
@@ -443,7 +444,7 @@ main.row {
 }
 
 .list__skill {
-  margin-top: 50px;
+  margin-top: 30px;
   background-color: #fff;
   padding: 2rem;
   border-radius: 20px;
