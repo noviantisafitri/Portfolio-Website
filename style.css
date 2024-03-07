@@ -584,7 +584,7 @@ main.row {
 }
 
 footer {
-  position: fixed;
+  position: inherit;
   bottom: 0;
   width: 100%;
   text-align: center;
