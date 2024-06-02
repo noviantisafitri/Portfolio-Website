@@ -5,8 +5,8 @@ html {
 }
 
 :root {
-  --primary-color: #B0A695;
-  --primary-color-dark: #776B5D;
+  --primary-color: #b0a695;
+  --primary-color-dark: #776b5d;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
   --text-light: #6b7280;
@@ -118,7 +118,6 @@ nav ul li a.active {
   flex-direction: column;
   align-items: center;
 }
-
 
 .section__before__title {
   font-size: 0.9rem;
@@ -351,7 +350,7 @@ main.row {
 }
 
 .col .contents .box::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 16px;
   height: 16px;
@@ -413,7 +412,6 @@ main.row {
   position: relative;
 }
 
-
 .certif__overlay {
   position: relative;
   display: inline-block;
@@ -439,16 +437,17 @@ main.row {
 }
 
 .certif__overlay:hover .certif__text {
-  opacity: 1;
+  opacity: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .detail__certif img {
-  width: 350px;
-  height: 250px;
+  width: 500px;
+  height: 300px;
   border-radius: 15px;
   display: block;
 }
-
 
 .section__title span {
   color: #fff;
@@ -588,7 +587,7 @@ main.row {
 .contact__form :is(input, textarea) {
   width: 500px;
   padding: 1rem;
-  background-color: #EBE3D5;
+  background-color: #ebe3d5;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -620,9 +619,7 @@ footer {
   padding: 10px 0;
 }
 
-
 @media (width < 750px) {
-
   ul {
     position: absolute;
     width: 100%;
@@ -635,7 +632,7 @@ footer {
     gap: 3rem;
   }
 
-  nav #check:checked~ul {
+  nav #check:checked ~ ul {
     left: 0;
   }
 
